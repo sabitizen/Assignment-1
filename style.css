@@ -65,13 +65,49 @@ body{
 }
 
 .image-content{
+    width: 274px;
+    height: 240px;
     float: right;
+
 }
 
+.section-1-content p{
+    text-align: start;
+}
+.section-2-content h1{
+    text-align: end;
+}
+
+
 .group-3-content{
+    width: 240px;
+    height: 240px;
+    float: left;
+
+}
+
+.group-4{
+    width: 240px;
+    height: 240px;
     float: left;
 }
 
 
+.video-content{
+    width: 1140px;
+    height: 777px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+.video-content h1{
+    text-align: center;
+}
 
+.video-content p{
+    text-align: center;
+}
 
+.iframe-video{
+    width: 600px;
+    margin:0 auto;
+}
