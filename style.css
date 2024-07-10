@@ -1,8 +1,3 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 body{
     font-family: "Azeret Mono";
@@ -15,7 +10,7 @@ body{
     height: 652px;
     margin-top: 20px;
     border: 2px solid red;
-    background-image: url("../assets/Hero-bg.png");
+    background-image: url("assets/Hero-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,3 +43,35 @@ body{
     color: white;
     background-color: black;
 }
+
+/* section-content */
+
+.section-content{
+    width: 1140px;
+    height: 1390px;
+    margin: 0 auto;
+    margin: 80px 97px;
+    border: 2px solid red;
+}
+.section-content h1{
+    text-align: center;
+    width: 852px;
+    height: 39px
+}
+.section-content p{
+    width: 852px;
+    height: 52px;
+    text-align: center;
+}
+
+.image-content{
+    float: right;
+}
+
+.group-3-content{
+    float: left;
+}
+
+
+
+
