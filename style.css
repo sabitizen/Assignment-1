@@ -1,4 +1,7 @@
-
+*{
+    box-sizing: border-box;
+    }
+}
 body{
     font-family: "Azeret Mono";
 }
@@ -9,7 +12,6 @@ body{
     max-width: 1440px;
     height: 652px;
     margin-top: 20px;
-    border: 2px solid red;
     background-image: url("assets/Hero-bg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -41,7 +43,7 @@ body{
     width: 208px;
     height: 66px;
     color: white;
-    background-color: black;
+    background-color: rgb(22, 22, 22);
 }
 
 /* section-content */
@@ -51,7 +53,7 @@ body{
     height: 1390px;
     margin: 0 auto;
     margin: 80px 97px;
-    border: 2px solid red;
+    
 }
 .section-content h1{
     text-align: center;
@@ -97,7 +99,7 @@ body{
 .video-content{
     width: 1140px;
     height: 777px;
-    border: 2px solid red;
+    
     margin: 0 auto;
 }
 .video-content h1{
@@ -116,7 +118,7 @@ body{
 .target{
     width: 1140px;
     height: 463px;
-    border: 2px solid red;
+    
     margin: 0 auto;
     text-align: center;
     
@@ -160,4 +162,25 @@ body{
 .learn{
     text-decoration: underline;
 }
+/* support */
+.support{
+    width: 1140px;
+    height: 250px;
+    margin: 0 auto;
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    
+}.support-text{
+    text-align: center;
+    color: white;
+}
 
+.input-text{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
