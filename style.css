@@ -92,6 +92,7 @@ body{
     float: left;
 }
 
+/* video content */
 
 .video-content{
     width: 1140px;
@@ -111,3 +112,52 @@ body{
     width: 600px;
     margin:0 auto;
 }
+/* current target */
+.target{
+    width: 1140px;
+    height: 463px;
+    border: 2px solid red;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.target-p{
+    padding-bottom: 48px;
+}
+
+.card-content{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.html-card{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    background-color: rgb(255, 225, 230);
+    text-align: left;
+}
+.css-card{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    background-color: rgb(116, 116, 248);
+    text-align: left;
+
+}
+
+.js-card{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    text-align: left;
+    background-color: rgb(255, 225, 230);
+
+}
+
+.learn{
+    text-decoration: underline;
+}
+
